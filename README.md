@@ -12,4 +12,4 @@ Data Analytics at ABC Information Solutions, building BI solutions and dashboard
 🛠️ Skills
 Python | R | SQL | PowerShell | Power BI | Qlik | Tableau | Machine Learning | Statistical Modelling
 
-🌐 **Portfolio** — <a href="https://ryliedouglas.github.io" target="_blank">ryliedouglas.github.io</a>
+🌐 **Portfolio** — <a href="https://ryliedouglas27.github.io" target="_blank">ryliedouglas.github.io</a>
