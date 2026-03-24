@@ -10,7 +10,7 @@
   :root {
     --bg: #0a0c0f; --surface: #111418; --surface2: #181c22;
     --border: rgba(255,255,255,0.07);
-    --accent: #c8f060; --accent2: #60c8f0; --accent3: #f060c8; --accent4: #f0c860;
+    --accent: #c0394b; --accent2: #60c8f0; --accent3: #f060c8; --accent4: #f0c860;
     --text: #e8eaed; --muted: #7a8494;
     --mono: 'DM Mono', monospace; --serif: 'Playfair Display', serif; --sans: 'DM Sans', sans-serif;
   }
@@ -24,7 +24,7 @@
   .nav-links a:hover { color: var(--accent); }
 
   .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 0 3rem 5rem; position: relative; overflow: hidden; }
-  .hero-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(ellipse 60% 50% at 80% 20%, rgba(200,240,96,0.08) 0%, transparent 60%), radial-gradient(ellipse 40% 40% at 10% 80%, rgba(96,200,240,0.06) 0%, transparent 50%); }
+  .hero-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(ellipse 60% 50% at 80% 20%, rgba(192,57,75,0.08) 0%, transparent 60%), radial-gradient(ellipse 40% 40% at 10% 80%, rgba(96,200,240,0.06) 0%, transparent 50%); }
   .hero-grid { position: absolute; inset: 0; z-index: 0; background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 60px 60px; mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%); }
   .hero-eyebrow { font-family: var(--mono); font-size: 0.78rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.2rem; position: relative; z-index: 1; opacity: 0; animation: fadeUp 0.6s 0.2s forwards; }
   .hero-title { font-family: var(--serif); font-size: clamp(3.5rem, 8vw, 7rem); line-height: 1.05; font-weight: 700; position: relative; z-index: 1; opacity: 0; animation: fadeUp 0.7s 0.35s forwards; }
@@ -91,7 +91,7 @@
   .about-contact a:hover { color: var(--accent); }
   .about-body p { color: var(--muted); font-size: 0.95rem; line-height: 1.75; font-weight: 300; margin-bottom: 1.1rem; }
   .about-body p strong { color: var(--text); font-weight: 500; }
-  .highlight-line { display: inline-block; background: linear-gradient(90deg, rgba(200,240,96,0.12), transparent); border-left: 2px solid var(--accent); padding: 0.7rem 1rem; margin: 0.6rem 0 1rem; font-style: italic; color: var(--text) !important; }
+  .highlight-line { display: inline-block; background: linear-gradient(90deg, rgba(192,57,75,0.12), transparent); border-left: 2px solid var(--accent); padding: 0.7rem 1rem; margin: 0.6rem 0 1rem; font-style: italic; color: var(--text) !important; }
 
   footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
   .footer-text { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.06em; }
@@ -122,7 +122,7 @@
   <h1 class="hero-title">Rylie<br><em>Douglas</em></h1>
   <p class="hero-sub">Data analytics specialist with 5+ years experience. Master of Data Analytics (High Distinction) · Power BI · R Shiny · Python · SQL. Currently at ABC Information Solutions, Brisbane.</p>
   <div class="hero-tags">
-    <span class="tag">Power BI</span><span class="tag">Qlik / Iceberg</span><span class="tag">R / Shiny</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span><span class="tag">DAX</span><span class="tag">Geospatial</span><span class="tag">Agricultural Analytics</span>
+    <span class="tag">Power BI</span><span class="tag">Qlik / Iceberg</span><span class="tag">R / Shiny</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span><span class="tag">DAX</span><span class="tag">Geospatial</span><span class="tag">Business Analytics</span>
   </div>
   <div class="hero-scroll">Scroll</div>
 </div>
@@ -252,7 +252,7 @@
   <div class="project">
     <div class="project-inner wide">
       <div>
-        <div class="project-num">02 — Agricultural Analytics</div>
+        <div class="project-num">02 — Business Analytics</div>
         <h3 class="project-title">McFarlane's Row Spacing Analysis</h3>
         <div class="project-context" style="color:var(--accent4);">Power BI · Agricultural Data · Geospatial</div>
         <p class="project-desc">End-to-end agricultural analytics dashboard for McFarlane Agriculture Ltd's 2025-26 carrot growing season. Analysed row spacing and germination rates across 8 paddocks in the South Canterbury region, correlating planting precision with emergence outcomes to surface actionable agronomic insights for farm management.</p>
@@ -264,7 +264,7 @@
           <div class="metric-row"><span class="metric-key">Key Finding</span><span class="metric-val">Higher spacing variability correlates with lower emergence</span></div>
         </div>
         <div class="chip-row">
-          <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">Agricultural Analytics</span><span class="chip">Correlation Analysis</span><span class="chip">Google Earth</span><span class="chip">KPI Cards</span>
+          <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">Business Analytics</span><span class="chip">Correlation Analysis</span><span class="chip">Google Earth</span><span class="chip">KPI Cards</span>
         </div>
       </div>
       <div class="img-stack">
@@ -398,7 +398,7 @@
         </div>
         <div style="font-family:var(--mono);font-size:0.58rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin:1.2rem 0 0.5rem;">BEST PERFORMING AGENTS: 8+ TICKETS RESOLVED</div>
         <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
-          <span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(200,240,96,0.08);border:1px solid rgba(200,240,96,0.2);border-radius:2px;color:var(--accent);">Agent A</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(200,240,96,0.08);border:1px solid rgba(200,240,96,0.2);border-radius:2px;color:var(--accent);">Agent B</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(200,240,96,0.08);border:1px solid rgba(200,240,96,0.2);border-radius:2px;color:var(--accent);">Agent C</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(200,240,96,0.08);border:1px solid rgba(200,240,96,0.2);border-radius:2px;color:var(--accent);">Agent D</span>
+          <span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(192,57,75,0.08);border:1px solid rgba(192,57,75,0.2);border-radius:2px;color:var(--accent);">Agent A</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(192,57,75,0.08);border:1px solid rgba(192,57,75,0.2);border-radius:2px;color:var(--accent);">Agent B</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(192,57,75,0.08);border:1px solid rgba(192,57,75,0.2);border-radius:2px;color:var(--accent);">Agent C</span><span style="font-family:var(--mono);font-size:0.6rem;padding:0.2rem 0.5rem;background:rgba(192,57,75,0.08);border:1px solid rgba(192,57,75,0.2);border-radius:2px;color:var(--accent);">Agent D</span>
         </div>
       </div>
         </div>
